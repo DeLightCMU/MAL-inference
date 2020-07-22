@@ -1,7 +1,7 @@
 # MAL-inference
-This is the reimplemented and optimized MAL detector for fast inference. 
+This repo is optimized for [Multiple Anchor Learning(MAL)](https://github.com/DeLightCMU/MAL) detector inference based on [NVIDIA Object Detection Toolkit (ODTK)](https://github.com/NVIDIA/retinanet-examples/).
 
-For more details of MAL, please refer to our CVPR2020 paper: [Multiple Anchor Learning for Visual Object Detection](https://openaccess.thecvf.com/content_CVPR_2020/papers/Ke_Multiple_Anchor_Learning_for_Visual_Object_Detection_CVPR_2020_paper.pdf)  and the [original MAL repo](https://github.com/DeLightCMU/MAL) 
+For more details of MAL, please refer to our CVPR2020 paper: [Multiple Anchor Learning for Visual Object Detection](https://openaccess.thecvf.com/content_CVPR_2020/papers/Ke_Multiple_Anchor_Learning_for_Visual_Object_Detection_CVPR_2020_paper.pdf)  and the [original MAL repo](https://github.com/DeLightCMU/MAL).
 
 ## 1. Installation
 
