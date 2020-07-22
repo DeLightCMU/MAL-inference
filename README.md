@@ -14,6 +14,9 @@ For more details of MAL, please refer to our CVPR2020 paper: [Multiple Anchor Le
 # for that, check that `which conda`, `which pip` and `which python` points to the
 # right path. From a clean conda env, this is what you need to do
 
+conda activate
+
+```
 
 ## 2. Running for COCO metrics (Pytorch)
 
