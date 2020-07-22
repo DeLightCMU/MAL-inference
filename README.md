@@ -6,8 +6,14 @@ For more details of MAL, please refer to our CVPR2020 paper: [Multiple Anchor Le
 ## 1. Installation
 
 ### Requirements:
+- Python>=3
 
 ### Step-by-step installation
+```bash
+# first, make sure that your conda is setup properly with the right environment
+# for that, check that `which conda`, `which pip` and `which python` points to the
+# right path. From a clean conda env, this is what you need to do
+
 
 ## 2. Running for COCO metrics (Pytorch)
 
