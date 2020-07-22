@@ -1,7 +1,7 @@
 # MAL-inference
 This is the reimplemented and optimized MAL detector for fast inference. 
 
-For more details of MAL, please refer to our CVPR2020 paper: Multiple Anchor Learning for Visual Object Detection [PDF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Ke_Multiple_Anchor_Learning_for_Visual_Object_Detection_CVPR_2020_paper.pdf) 
+For more details of MAL, please refer to our CVPR2020 paper: [Multiple Anchor Learning for Visual Object Detection](https://openaccess.thecvf.com/content_CVPR_2020/papers/Ke_Multiple_Anchor_Learning_for_Visual_Object_Detection_CVPR_2020_paper.pdf)  and the [original MAL repo](https://github.com/DeLightCMU/MAL) 
 
 ## 1. Installation
 
