@@ -9,8 +9,8 @@ For more details of MAL, please refer to our CVPR2020 paper: Multiple Anchor Lea
 
 ### Step-by-step installation
 
-## 2. Running for COCO metric
+## 2. Running for COCO metrics (Pytorch)
 
 
-## 3. Running for single image
+## 3. Running for single images (C++)
 
