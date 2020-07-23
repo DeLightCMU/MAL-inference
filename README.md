@@ -29,11 +29,12 @@ make -j8
 ```
 
 ## 2. Running for COCO metrics (Pytorch)
+```bash
 CUDA_VISIBLE_DEVICES=0 retinanet infer modelfold/modelname.pth --images ../coco/val2017/   --annotations ../coco/annotations/instances_val2017.json  --batch=1
 
 note:
 you need download cocco dataset in you computer
-
+```
 ## 3. Running for single images (C++)
 ```bash
 #export model to Tensorrt format 
