@@ -9,6 +9,7 @@ For more details of MAL, please refer to our CVPR2020 paper: [Multiple Anchor Le
 - Python>=3.6.9
 - Docker with API version >=Nvidia 1.4
 - Nvidia drivers with version >= 361 
+- Tensorrt=6.0.1-1+cuda10.1
 - A proper C++ toolchain 
 - Opencv >=3.4.0
 - PyTorch 1.1 with CUDA support
@@ -37,27 +38,14 @@ rm -rf *
 cmake -DCMAKE_CUDA_FLAGS="--expt-extended-lambda -std=c++11" ..
 make -j8
 ```
-## 2. Download MAL models and convert to ODTK format (TODO)
 
-| Backbone                | MAL COCO models |  Inference time (ms) |
-| :---------------------: | :------------:  |  :----------------:  |
-| ResNet-50-FPN           | [download](https://cmu.box.com/s/f70ewy7fh66bsb551v44hfskehgz07z3)   |  |
-| ResNet-101-FPN          | download   |                            |
-| ResNext-101-FPN         | download   |                            |
-
-```bash
-#Download MAL models and convert to ODTK format
-
-```
-
-
-## 3. Running for COCO metrics (Pytorch)
+## 2. Running for COCO metrics (Pytorch)
 ```bash
 #you need download cocco dataset in you computer  [COCO 2017](http://cocodataset.org/#download)
 CUDA_VISIBLE_DEVICES=0 retinanet infer "path to config file.yaml" MODEL.WEIGHT "path to.pth file" --images "path to coco dataset/val2017/"   --annotations "path to coco dataset/annotations/instances_val2017.json"  --batch=1
 
 ```
-## 4. Inference on single images (C++ TensorRT)
+## 3. Running for single images (C++)
 ```bash
 #export model to Tensorrt format 
 CUDA_VISIBLE_DEVICES=0 python retinanet/main.py export  --"path/to/config/file.yaml"  non.pth modelname.plan --size 800 1280(you can set high and wide according you need for example 800 1200 , 1024 1344 etc)
