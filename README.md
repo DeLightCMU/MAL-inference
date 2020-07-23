@@ -23,3 +23,13 @@ conda activate
 
 ## 3. Running for single images (C++)
 
+## Citation: 
+
+```bash
+@inproceedings{kehuang2020,
+  title={Multiple Anchor Learning for Visual Object Detection},
+  author={Wei Ke, Tianliang Zhang, Zeyi Huang, Qixiang Ye, Jianzhuang Liu and Dong Huang},
+  booktitle={CVPR},
+  year={2020}
+}
+```
