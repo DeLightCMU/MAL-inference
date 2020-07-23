@@ -3,6 +3,17 @@ This repo is optimized for [Multiple Anchor Learning(MAL)](https://github.com/De
 
 For more details of MAL, please refer to our CVPR2020 paper: [Multiple Anchor Learning for Visual Object Detection](https://openaccess.thecvf.com/content_CVPR_2020/papers/Ke_Multiple_Anchor_Learning_for_Visual_Object_Detection_CVPR_2020_paper.pdf)  and the [original MAL repo](https://github.com/DeLightCMU/MAL).
 
+## Citation: 
+
+```bash
+@inproceedings{kehuang2020,
+  title={Multiple Anchor Learning for Visual Object Detection},
+  author={Wei Ke and Tianliang Zhang and Zeyi Huang and Qixiang Ye and Jianzhuang Liu and Dong Huang},
+  booktitle={CVPR},
+  year={2020}
+}
+```
+
 ## 1. Installation
 
 ### Requirements:
@@ -76,13 +87,4 @@ cd extras/cppapi/build
 
 ./infer modelname.plan picturename.png
 ```
-## Citation: 
 
-```bash
-@inproceedings{kehuang2020,
-  title={Multiple Anchor Learning for Visual Object Detection},
-  author={Wei Ke and Tianliang Zhang and Zeyi Huang and Qixiang Ye and Jianzhuang Liu and Dong Huang},
-  booktitle={CVPR},
-  year={2020}
-}
-```
