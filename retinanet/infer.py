@@ -119,13 +119,10 @@ def infer(model, path, detections_file, resize, max_size, batch_size, mixed_prec
             for score, box, cat in zip(scores, boxes, classes):
                 x1, y1, x2, y2 = box.data.tolist()
                 cat = cat.item()
-                print("cat:", cat)
-                if cat==3:
-                   continue
                 if 'annotations' in data_iterator.coco.dataset:
                     cat = data_iterator.coco.getCatIds()[cat]
-                    if cat !=3:
-                      continue
+                    #if cat !=3:
+                      #continue
                     #print('cat',cat)
                 detections.append({
                     'image_id': image_id,
