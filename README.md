@@ -37,13 +37,19 @@ rm -rf *
 cmake -DCMAKE_CUDA_FLAGS="--expt-extended-lambda -std=c++11" ..
 make -j8
 ```
-## 2. Download MAL models and convert to ODTK format
+## 2. Download MAL models and convert to ODTK format (TODO)
 
-| Backbone                | MAL COCO models |
-| :---------------------: | :------------:  |
-| ResNet-50-FPN           | [download](https://cmu.box.com/s/f70ewy7fh66bsb551v44hfskehgz07z3)   |
-| ResNet-101-FPN          | download   |
-| ResNext-101-FPN         | download   |
+| Backbone                | MAL COCO models |  Inference time (ms) |
+| :---------------------: | :------------:  |                      |
+| ResNet-50-FPN           | [download](https://cmu.box.com/s/f70ewy7fh66bsb551v44hfskehgz07z3)   |  |
+| ResNet-101-FPN          | download   |                            |
+| ResNext-101-FPN         | download   |                            |
+
+```bash
+#Download MAL models and convert to ODTK format
+
+```
+
 
 ## 3. Running for COCO metrics (Pytorch)
 ```bash
