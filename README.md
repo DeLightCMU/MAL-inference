@@ -6,7 +6,7 @@ For more details of MAL, please refer to our CVPR2020 paper: [Multiple Anchor Le
 ## 1. Installation
 
 ### Requirements:
-- Python>=3
+- Python>=3.6.9
 - Docker with API version >=Nvidia 1.4
 - Nvidia drivers with version >= 361 
 - A proper C++ toolchain 
