@@ -23,6 +23,9 @@ sudo docker run --gpus all -v /home/usrname/MAL-inference:/workspace --rm --ipc=
 cd MAL-inference
 python setup.py clean --all install
 python setup.py build develop
+#re-build C++ code
+cd extras/cppapi/build
+make -j8
 ```
 
 ## 2. Running for COCO metrics (Pytorch)
@@ -39,8 +42,6 @@ CUDA_VISIBLE_DEVICES=0 python retinanet/main.py export  --config_file configs/MA
 cp modelname.plan extras/cppapi/build
 
 cd extras/cppapi/build
-
-make -j8
 
 ./infer modelname.plan picturename.png
 ```
