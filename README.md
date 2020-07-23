@@ -11,9 +11,9 @@ For more details of MAL, please refer to our CVPR2020 paper: [Multiple Anchor Le
 - Nvidia drivers with version >= 361 
 - cuda10.1
 - Tensorrt=6.0.1-1
-- A proper C++ toolchain 
+- g++ (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0
 - Opencv >=3.4.0
-- PyTorch 1.1 with CUDA support
+- PyTorch 1.3 with CUDA support
 - torchvision 0.2.1
 - pycocotools
 
