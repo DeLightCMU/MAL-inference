@@ -11,7 +11,7 @@ For more details of MAL, please refer to our CVPR2020 paper: [Multiple Anchor Le
 ### Step-by-step installation
 1.sudo docker run --gpus all -v /home/usrname/MAL-inference:/workspace --rm --ipc=host -it nvcr.io/nvidia/pytorch:19.10-py3
 
-2. cd MAL-inference
+2.cd MAL-inference
 
 3.python setup.py clean --all install
 
