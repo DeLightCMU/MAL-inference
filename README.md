@@ -9,12 +9,6 @@ For more details of MAL, please refer to our CVPR2020 paper: [Multiple Anchor Le
 - Python>=3
 
 ### Step-by-step installation
-```bash
-# first, make sure that your conda is setup properly with the right environment
-# for that, check that `which conda`, `which pip` and `which python` points to the
-# right path. From a clean conda env, this is what you need to do
-# conda activate
-
 1.sudo docker run --gpus all -v /home/usrname/MAL-inference:/workspace --rm --ipc=host -it nvcr.io/nvidia/pytorch:19.10-py3
 2 cd MAL-inference
 3.python setup.py clean --all install
