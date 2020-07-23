@@ -37,14 +37,21 @@ rm -rf *
 cmake -DCMAKE_CUDA_FLAGS="--expt-extended-lambda -std=c++11" ..
 make -j8
 ```
+## 2. Download MAL models and convert to ODTK format
 
-## 2. Running for COCO metrics (Pytorch)
+| Backbone                | MAL COCO models |
+| :---------------------: | :------------:  |
+| ResNet-50-FPN           | [download](https://cmu.box.com/s/f70ewy7fh66bsb551v44hfskehgz07z3)   |
+| ResNet-101-FPN          | download   |
+| ResNext-101-FPN         | download   |
+
+## 3. Running for COCO metrics (Pytorch)
 ```bash
 #you need download cocco dataset in you computer  [COCO 2017](http://cocodataset.org/#download)
 CUDA_VISIBLE_DEVICES=0 retinanet infer "path to config file.yaml" MODEL.WEIGHT "path to.pth file" --images "path to coco dataset/val2017/"   --annotations "path to coco dataset/annotations/instances_val2017.json"  --batch=1
 
 ```
-## 3. Running for single images (C++)
+## 4. Inference on single images (C++ TensorRT)
 ```bash
 #export model to Tensorrt format 
 CUDA_VISIBLE_DEVICES=0 python retinanet/main.py export  --"path/to/config/file.yaml"  non.pth modelname.plan --size 800 1280(you can set high and wide according you need for example 800 1200 , 1024 1344 etc)
