@@ -50,10 +50,12 @@ make -j8
 ```bash
 #Download MAL model and convert to the ODTK format
 download resnet50 model to MAL-inference/models/resnet50/
+#edit convert script
 vi MAL-inference/models/transfer_model.py
  set
   model_name = './resnet50/XXXX.pth'
   transferred_model_name = './resnet50/transferred_model_XXXX.pth'
+#convert  
 python models/transfer_model.py the MAL model will convert to ODTK format
 ```
 
