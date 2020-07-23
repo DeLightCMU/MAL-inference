@@ -33,7 +33,7 @@ you need download cocco dataset in you computer
 
 4.make -j8
 
-5. ./infer modelname.plan picturename.png
+5../infer modelname.plan picturename.png
 
 ## Citation: 
 
