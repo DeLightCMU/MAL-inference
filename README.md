@@ -9,13 +9,19 @@ For more details of MAL, please refer to our CVPR2020 paper: [Multiple Anchor Le
 - Python>=3
 
 ### Step-by-step installation
-1.sudo docker run --gpus all -v /home/usrname/MAL-inference:/workspace --rm --ipc=host -it nvcr.io/nvidia/pytorch:19.10-py3
+# install MAL-inference
+git https://github.com/DeLightCMU/MAL-inference.git
 
-2.cd MAL-inference
+# load MAL-inference in NVIDIA docker
+sudo docker run --gpus all -v /home/usrname/MAL-inference:/workspace --rm --ipc=host -it nvcr.io/nvidia/pytorch:19.10-py3
 
-3.python setup.py clean --all install
-
-4.python setup.py build develop
+# the following will install the lib with
+# symbolic links, so that you can modify
+# the files if you want and won't need to
+# re-build it
+cd MAL-inference
+python setup.py clean --all install
+python setup.py build develop
 
 
 ## 2. Running for COCO metrics (Pytorch)
