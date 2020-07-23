@@ -54,7 +54,7 @@ vi MAL-inference/models/transfer_model.py
  "
   model_name = './resnet50/"downloadname.pth"'
   transferred_model_name = './resnet50/transferred_model_XXXX.pth'
-  "
+ "
 #convert  
 python models/transfer_model.py the MAL model will convert to ODTK format
 ```
