@@ -49,6 +49,7 @@ make -j8
 
 ```bash
 #Download MAL model and convert to the ODTK format
+#download resnet50 model to MAL-inference/model
 
 ```
 
