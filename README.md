@@ -33,7 +33,7 @@ make -j8
 CUDA_VISIBLE_DEVICES=0 retinanet infer "path to config file.yaml" MODEL.WEIGHT "path to.pth file" --images "path to coco dataset/val2017/"   --annotations "path to coco dataset/annotations/instances_val2017.json"  --batch=1
 
 note:
-you need download cocco dataset in you computer
+you need download cocco dataset in you computer  [COCO 2017](http://cocodataset.org/#download)
 ```
 ## 3. Running for single images (C++)
 ```bash
