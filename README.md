@@ -9,6 +9,7 @@ For more details of MAL, please refer to our CVPR2020 paper: [Multiple Anchor Le
 - Python>=3
 
 ### Step-by-step installation
+```bash
 # install MAL-inference
 git https://github.com/DeLightCMU/MAL-inference.git
 
@@ -22,7 +23,7 @@ sudo docker run --gpus all -v /home/usrname/MAL-inference:/workspace --rm --ipc=
 cd MAL-inference
 python setup.py clean --all install
 python setup.py build develop
-
+```
 
 ## 2. Running for COCO metrics (Pytorch)
 CUDA_VISIBLE_DEVICES=0 retinanet infer modelfold/modelname.pth --images ../coco/val2017/   --annotations ../coco/annotations/instances_val2017.json  --batch=1
