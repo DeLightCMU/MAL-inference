@@ -33,6 +33,7 @@ you need download cocco dataset in you computer
 
 ## 3. Running for single images (C++)
 ```bash
+#export model to Tensorrt format 
 CUDA_VISIBLE_DEVICES=0 python retinanet/main.py export  --config_file configs/MAL_R-50-FPN_e2e.yaml  non.pth modelname.plan --size 800 1280(you can set high and wide according you need for example 800 1200 , 1024 1344 etc)
 
 cp modelname.plan extras/cppapi/build
