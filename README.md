@@ -44,7 +44,7 @@ make -j8
 | :---------------------: | :-------: | :------------:  |
 | ResNet-50-FPN           |  ms      |  [download](https://cmu.box.com/s/f70ewy7fh66bsb551v44hfskehgz07z3)   |
 | ResNet-101-FPN          |  ms      |  download   |
-| ResNext-101-FPN         |  ms      |  download   |
+| ResNext-101-FPN         |  ms      |  [download](https://cmu.box.com/s/5bgax4gqsyvv31w5uhwrywmvvikathnn)   |
 
 ```bash
 #Download MAL model and convert to the ODTK format
