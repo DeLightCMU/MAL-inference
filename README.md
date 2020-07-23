@@ -25,6 +25,8 @@ python setup.py clean --all install
 python setup.py build develop
 #re-build C++ code
 cd extras/cppapi/build
+rm -rf *
+cmake -DCMAKE_CUDA_FLAGS="--expt-extended-lambda -std=c++11" ..
 make -j8
 ```
 
