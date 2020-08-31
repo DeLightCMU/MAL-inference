@@ -54,7 +54,7 @@ make -j8
 | Backbone                | Inference time | COCO pth models |
 | :---------------------: | :-------: | :------------:  |
 | ResNet-50-FPN           |  ms      |  [download](https://cmu.box.com/s/f70ewy7fh66bsb551v44hfskehgz07z3)   |
-| ResNet-101-FPN          |  ms      |  download   |
+| ResNet-101-FPN          |  ms      |  [download](https://cmu.box.com/s/dolnhky38kxrdx1x882tcic5ymu4usm7)   |
 | ResNext-101-FPN         |  ms      |  [download](https://cmu.box.com/s/5bgax4gqsyvv31w5uhwrywmvvikathnn)   |
 
 ```bash
