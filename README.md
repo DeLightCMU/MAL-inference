@@ -51,11 +51,11 @@ make -j8
 ```
 ## 2. Download MAL model and convert to the ODTK format (TODO)
 
-| Backbone                | Inference time | COCO pth models |
-| :---------------------: | :-------: | :------------:  |
-| ResNet-50-FPN           |  ms      |  [download](https://cmu.box.com/s/f70ewy7fh66bsb551v44hfskehgz07z3)   |
-| ResNet-101-FPN          |  ms      |  [download](https://cmu.box.com/s/dolnhky38kxrdx1x882tcic5ymu4usm7)   |
-| ResNext-101-FPN         |  ms      |  [download](https://cmu.box.com/s/5bgax4gqsyvv31w5uhwrywmvvikathnn)   |
+| Backbone                | COCO test-dev mAP (single-scale) |Inference time | COCO pth models |
+| :---------------------: | :--------------: |:-------: | :------------:  |
+| ResNet-50-FPN           | 39.2| ms      |  [download](https://cmu.box.com/s/f70ewy7fh66bsb551v44hfskehgz07z3)   |
+| ResNet-101-FPN          | 43.6| ms      |  [download](https://cmu.box.com/s/dolnhky38kxrdx1x882tcic5ymu4usm7)   |
+| ResNext-101-FPN         | 45.9| ms      |  [download](https://cmu.box.com/s/5bgax4gqsyvv31w5uhwrywmvvikathnn)   |
 
 ```bash
 #Download MAL model and convert to the ODTK format
